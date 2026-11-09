@@ -1,0 +1,105 @@
+{
+  "started_at": "2026-11-08T15:54:38.640620+00:00",
+  "target": "E:\\Program Files\\Tencent\\QQNT\\versions\\9.9.36-53644\\resources\\app\\wrapper.node",
+  "registration": "C:\\Users\\huiya\\.local\\share\\rea-ida\\ida-mcp.json",
+  "timeoutMs": 1800000,
+  "target_mutated": false,
+  "status": "failed",
+  "failure": {
+    "error": {
+      "code": "provider_timeout",
+      "category": "timeout",
+      "message": "This IDA request reached the registration timeoutMs deadline of 1800000 ms (deadlineExpired).",
+      "retryable": true,
+      "remediation": {
+        "action": "Set timeoutMs in the JSON file named by REA_IDA_MCP_CONFIG to an integer from 1 to 2147483647 (omitted means 300000). REA applies the edited file on the next IDA connection after it re-reads the registration; an already open session keeps the timeout it connected with. Allow execution, cleanup and delivery headroom in the outer MCP client deadline. Confirm outstanding work and cleanup before retrying."
+      },
+      "recovery": {
+        "kind": "inspect_timeout_state",
+        "operation": "procedure_pseudo_code",
+        "timeout_ms": 1800000
+      },
+      "details": {
+        "operation": "procedure_pseudo_code",
+        "timeout_ms": 1800000,
+        "diagnostics": {
+          "startup_operation": "idb_open"
+        },
+        "captured_output": {
+          "stdout": "",
+          "stderr": "INFO:__main__:Spawning idalib worker on 127.0.0.1:62934\r\n",
+          "truncated": false,
+          "stdout_bytes": 0,
+          "stderr_bytes": 57
+        }
+      }
+    }
+  },
+  "cleanup_failure": {
+    "error": {
+      "code": "cleanup_incomplete",
+      "category": "execution_failure",
+      "message": "Analysis could not complete. Run `rea doctor` and review the reported details; repeating the unchanged request is not expected to succeed.",
+      "retryable": false,
+      "remediation": {
+        "action": "Analysis could not complete. Run `rea doctor` and review the reported details; repeating the unchanged request is not expected to succeed."
+      },
+      "details": {
+        "provider_id": "ida",
+        "operation": "close",
+        "cleanup": "incomplete",
+        "resources": [
+          "C:\\Users\\huiya\\AppData\\Local\\Temp\\rea-ida-8201654bf16e7e8ba90b4fbb54e152fa"
+        ],
+        "diagnostics": {
+          "reason": "IDA cleanup could not be verified; the remaining connection or private workspace is retained for retry.",
+          "failure_reason": "IDA database open did not return a completed response. Worker inventory cannot prove that the request has stopped; the private workspace was retained.",
+          "workspace": "C:\\Users\\huiya\\AppData\\Local\\Temp\\rea-ida-8201654bf16e7e8ba90b4fbb54e152fa",
+          "upstream_sessions": {
+            "state": "unverified",
+            "sessions": [
+              {
+                "session_id": "rea-1e5166fb-16d1-4334-8a2b-199f0257b0af",
+                "backend": "worker",
+                "owned": null,
+                "input_path": null,
+                "is_active": null
+              }
+            ],
+            "reason": "Release of upstream sessions matching the requested session ID or private input was not confirmed; input_path preserves the last observed binding and is null when no inventory has reported it. is_active preserves registry activity and is null when unknown; it does not establish process liveness. A worker outlives its supervisor and may keep running until it finishes and reaches its idle timeout; exiting REA does not stop it. A gui session belongs to an IDA instance REA does not control. An empty session_id means upstream reported none; owned is null when no inventory has reported ownership; an empty list means the requested worker's close was confirmed but no inventory has identified any remaining session."
+          }
+        },
+        "cleanup_reason": "IDA connection or private workspace cleanup remains unverified.",
+        "execution_failure": "execution_failure"
+      }
+    }
+  },
+  "closed": false,
+  "finished_at": "2026-11-08T16:24:41.747129+00:00",
+  "post_timeout_cleanup_verification": {
+    "checked_at": "2026-11-08T16:25:44.744942+00:00",
+    "supervisor_exit": 0,
+    "upstream_inventory": {
+      "jsonrpc": "2.0",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"sessions\":[],\"count\":0}"
+          }
+        ],
+        "structuredContent": {
+          "sessions": [],
+          "count": 0
+        },
+        "isError": false
+      },
+      "id": 2
+    },
+    "temporary_database_retained": "C:\\Users\\huiya\\AppData\\Local\\Temp\\rea-ida-8201654bf16e7e8ba90b4fbb54e152fa",
+    "scope": "Post-timeout inventory; does not turn failed REA close into a successful close observation."
+  },
+  "qq_version": "9.9.36-53644",
+  "wrapper_file_version": "9.8.0.24541",
+  "record_kind": "归并原会话清单与后续清理核对；不是新的分析运行或成功反编译证据"
+}

@@ -1,0 +1,103 @@
+{
+  "target": "E:\\Program Files\\Tencent\\QQNT\\versions\\9.9.36-53644\\resources\\app\\wrapper.node",
+  "total_matches": 19,
+  "findings": [
+    {
+      "va": "0x18480b23a",
+      "file_offset": "0x480983a",
+      "text": "add graytip msg by feed channel, channel_id:{}"
+    },
+    {
+      "va": "0x18486026d",
+      "file_offset": "0x485e86d",
+      "text": "addLocalJsonGrayTipMsgExt"
+    },
+    {
+      "va": "0x184872739",
+      "file_offset": "0x4870d39",
+      "text": "localGrayTipElement"
+    },
+    {
+      "va": "0x18488173c",
+      "file_offset": "0x487fd3c",
+      "text": "assertion (argc == 5) failed: NodeIKernelMsgService::addLocalJsonGrayTipMsgExt needs 5 arguments"
+    },
+    {
+      "va": "0x184884611",
+      "file_offset": "0x4882c11",
+      "text": "assertion (argc == 4) failed: NodeIKernelMsgService::addLocalJsonGrayTipMsg needs 4 arguments"
+    },
+    {
+      "va": "0x18488965c",
+      "file_offset": "0x4887c5c",
+      "text": "assertion (argc == 3) failed: NodeIKernelMsgService::addLocalGrayTipMsg needs 3 arguments"
+    },
+    {
+      "va": "0x18495acca",
+      "file_offset": "0x49592ca",
+      "text": "addLocalJsonGrayTipMsg"
+    },
+    {
+      "va": "0x18495ace1",
+      "file_offset": "0x49592e1",
+      "text": "addLocalGrayTipMsg"
+    },
+    {
+      "va": "0x184973cc3",
+      "file_offset": "0x49722c3",
+      "text": "localGrayTipType"
+    },
+    {
+      "va": "0x184973cd4",
+      "file_offset": "0x49722d4",
+      "text": "gd::msg::element::gray_tip::local_msg::kU32LocalGrayTipType"
+    },
+    {
+      "va": "0x1849c01de",
+      "file_offset": "0x49be7de",
+      "text": "assertion (cpp_impl) failed: NodeIKernelMsgService::addLocalJsonGrayTipMsgExt : implementation of IKernelMsgService is not valid"
+    },
+    {
+      "va": "0x1849c5868",
+      "file_offset": "0x49c3e68",
+      "text": "assertion (cpp_impl) failed: NodeIKernelMsgService::addLocalJsonGrayTipMsg : implementation of IKernelMsgService is not valid"
+    },
+    {
+      "va": "0x1849c58e6",
+      "file_offset": "0x49c3ee6",
+      "text": "assertion (cpp_impl) failed: NodeIKernelMsgService::addLocalGrayTipMsg : implementation of IKernelMsgService is not valid"
+    },
+    {
+      "va": "0x185ef8440",
+      "file_offset": "0x5ef6840",
+      "text": ".?AV?$__func@V<lambda_60>@?0??addLocalGrayTipMsg@KernelMsgService@wrapper@nt@@UEAAXAEBUContact@45@AEBULocalGrayTipElement@45@_NAEBV?$shared_ptr@VIOperateCallback@wrapper@nt@@@__qq@std@@@Z@V?$allocator@V<lambda_60>@?0??addLocalGrayTipMsg@KernelMsgService@wrapper@nt@@UEAAXAEBUContact@45@AEBULocalGrayTipElement@45@_NAEBV?$shared_ptr@VIOperateCallback@wrapper@nt@@@__qq@std@@@Z@@9std@@$$A6AXH_K@Z@__function@__qq@std@@"
+    },
+    {
+      "va": "0x185ef8600",
+      "file_offset": "0x5ef6a00",
+      "text": ".?AV<lambda_60>@?0??addLocalGrayTipMsg@KernelMsgService@wrapper@nt@@UEAAXAEBUContact@34@AEBULocalGrayTipElement@34@_NAEBV?$shared_ptr@VIOperateCallback@wrapper@nt@@@__qq@std@@@Z@"
+    },
+    {
+      "va": "0x185ef86d0",
+      "file_offset": "0x5ef6ad0",
+      "text": ".?AV?$__func@V<lambda_61>@?0??addLocalJsonGrayTipMsg@KernelMsgService@wrapper@nt@@UEAAXAEBUContact@45@AEBUJsonGrayElement@45@_N2AEBV?$shared_ptr@VIAddJsonGrayTipMsgCallback@wrapper@nt@@@__qq@std@@@Z@V?$allocator@V<lambda_61>@?0??addLocalJsonGrayTipMsg@KernelMsgService@wrapper@nt@@UEAAXAEBUContact@45@AEBUJsonGrayElement@45@_N2AEBV?$shared_ptr@VIAddJsonGrayTipMsgCallback@wrapper@nt@@@__qq@std@@@Z@@9std@@$$A6AXH_K@Z@__function@__qq@std@@"
+    },
+    {
+      "va": "0x185ef88a0",
+      "file_offset": "0x5ef6ca0",
+      "text": ".?AV<lambda_61>@?0??addLocalJsonGrayTipMsg@KernelMsgService@wrapper@nt@@UEAAXAEBUContact@34@AEBUJsonGrayElement@34@_N2AEBV?$shared_ptr@VIAddJsonGrayTipMsgCallback@wrapper@nt@@@__qq@std@@@Z@"
+    },
+    {
+      "va": "0x185ef8970",
+      "file_offset": "0x5ef6d70",
+      "text": ".?AV?$__func@V<lambda_62>@?0??addLocalJsonGrayTipMsgExt@KernelMsgService@wrapper@nt@@UEAAXAEBUContact@45@AEBUJsonGrayMsgInfo@45@AEBUJsonGrayElement@45@_N3AEBV?$shared_ptr@VIAddJsonGrayTipMsgCallback@wrapper@nt@@@__qq@std@@@Z@V?$allocator@V<lambda_62>@?0??addLocalJsonGrayTipMsgExt@KernelMsgService@wrapper@nt@@UEAAXAEBUContact@45@AEBUJsonGrayMsgInfo@45@AEBUJsonGrayElement@45@_N3AEBV?$shared_ptr@VIAddJsonGrayTipMsgCallback@wrapper@nt@@@__qq@std@@@Z@@__qq@std@@$$A6AXH_K@Z@__function@__qq@std@@"
+    },
+    {
+      "va": "0x185ef8b70",
+      "file_offset": "0x5ef6f70",
+      "text": ".?AV<lambda_62>@?0??addLocalJsonGrayTipMsgExt@KernelMsgService@wrapper@nt@@UEAAXAEBUContact@34@AEBUJsonGrayMsgInfo@34@AEBUJsonGrayElement@34@_N3AEBV?$shared_ptr@VIAddJsonGrayTipMsgCallback@wrapper@nt@@@__qq@std@@@Z@"
+    }
+  ],
+  "qq_version": "9.9.36-53644",
+  "wrapper_file_version": "9.8.0.24541"
+}

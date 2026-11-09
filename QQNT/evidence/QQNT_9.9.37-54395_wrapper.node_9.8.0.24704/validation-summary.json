@@ -1,0 +1,22 @@
+{
+  "qq_version": "9.9.37-54395",
+  "pe_file_version": "9.8.0.24704",
+  "original_sha256": "fed532ad58d2404dcedf2858554e8fa52a5f4e65b271c008d2faca4011d7d4a2",
+  "feature_configuration": "E:\\HuiPrograming\\MainProject\\RevokeMsgPatcher\\RevokeMsgPatcher.Assistant\\JsonData.cs",
+  "feature_configuration_sha256": "9bbddc0d15b3fcbd0aec052232d903160e1d5eba83613db87618abde2d886c50",
+  "original_features_match_uniquely": true,
+  "actual_project_matcher_passed": true,
+  "version_range_selects_rule": true,
+  "function_ranges_equal_loaded_memory": true,
+  "runtime_pid": 44128,
+  "target_modified": false,
+  "functional_recall_test": true,
+  "functional_recall_test_source": "user_report",
+  "functional_recall_test_reported_on": "2026-11-09",
+  "agent_executed_functional_recall_test": false,
+  "installed_sha256": "f5e20cb7129142dac22b962ce253cfd0a955f52a3c20ad807440a5b0fa3adab3",
+  "installed_hash_verified": true,
+  "user_validation_record": "user-validation.json",
+  "target_modified_scope": "target_modified 记录原始助手只读研究阶段；用户随后自行安装并反馈测试通过。",
+  "wrapper_file_version": "9.8.0.24704"
+}

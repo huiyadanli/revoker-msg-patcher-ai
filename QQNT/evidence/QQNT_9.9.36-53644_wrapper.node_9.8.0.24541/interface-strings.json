@@ -1,0 +1,45 @@
+{
+  "target": "E:\\Program Files\\Tencent\\QQNT\\versions\\9.9.36-53644\\resources\\app\\wrapper.node",
+  "findings": [
+    {
+      "term": "addKernelMsgListener",
+      "file_offset": "0x48ea9c3",
+      "va": "0x1848ec3c3",
+      "rip_lea_candidates": [
+        "0x180fdb59f"
+      ]
+    },
+    {
+      "term": "onMsgRecall",
+      "file_offset": "0x4944065",
+      "va": "0x184945a65",
+      "rip_lea_candidates": [
+        "0x18246f398"
+      ]
+    },
+    {
+      "term": "onRecvSysMsg",
+      "file_offset": "0x4958b90",
+      "va": "0x18495a590",
+      "rip_lea_candidates": [
+        "0x18246d4bd"
+      ]
+    },
+    {
+      "term": "onRecvMsg",
+      "file_offset": "0x49585e4",
+      "va": "0x184959fe4",
+      "rip_lea_candidates": [
+        "0x1801f3f0c",
+        "0x1801f3fac",
+        "0x1801f4050",
+        "0x18246ba1c"
+      ]
+    }
+  ],
+  "limitations": [
+    "Exact ASCII token-plus-NUL search and RIP LEA candidate scan only; not a callable API or event coverage proof."
+  ],
+  "qq_version": "9.9.36-53644",
+  "wrapper_file_version": "9.8.0.24541"
+}

@@ -1,4 +1,4 @@
-# 微信 PC 4.x（Weixin.dll）反撤回 Patch 记录
+# 微信 PC 4.1.12.55 防撤回研究
 
 > 版本：Weixin 4.1.12.55（`E:\Program Files\Tencent\Weixin\4.1.12.55\Weixin.dll`）
 > 参考实现：`E:\HuiTask\防撤回\微信\4.1.7.26 / 4.1.7.28 / 4.1.7.30 / 4.1.9.30`（用 `diff_hex.py` 对比原始与已 Patch DLL 得到参考点）

@@ -1,0 +1,1566 @@
+{
+  "target": "E:\\Program Files\\Tencent\\QQNT\\versions\\9.9.36-53644\\resources\\app\\wrapper.node",
+  "sha256": "0d8b94448f4dafe7337b88d6a568b004224c37fcbe2bd1142c1af7624fbd534c",
+  "bytes": 117866024,
+  "machine": "0x8664",
+  "image_base": "0x180000000",
+  "sections": [
+    {
+      "name": ".text",
+      "rva": "0x1000",
+      "virtual_size": 67391814,
+      "raw_offset": "0x400",
+      "raw_size": 67392000
+    },
+    {
+      "name": ".rdata",
+      "rva": "0x4047000",
+      "virtual_size": 31288768,
+      "raw_offset": "0x4045600",
+      "raw_size": 31288832
+    },
+    {
+      "name": ".data",
+      "rva": "0x5e1e000",
+      "virtual_size": 18914244,
+      "raw_offset": "0x5e1c400",
+      "raw_size": 12190208
+    },
+    {
+      "name": ".pdata",
+      "rva": "0x7028000",
+      "virtual_size": 6448800,
+      "raw_offset": "0x69bc600",
+      "raw_size": 6449152
+    },
+    {
+      "name": ".QMGuid",
+      "rva": "0x764f000",
+      "virtual_size": 32,
+      "raw_offset": "0x6fe2e00",
+      "raw_size": 512
+    },
+    {
+      "name": ".fptable",
+      "rva": "0x7650000",
+      "virtual_size": 256,
+      "raw_offset": "0x6fe3000",
+      "raw_size": 512
+    },
+    {
+      "name": ".retplne",
+      "rva": "0x7651000",
+      "virtual_size": 60,
+      "raw_offset": "0x6fe3200",
+      "raw_size": 512
+    },
+    {
+      "name": ".tls",
+      "rva": "0x7652000",
+      "virtual_size": 3521,
+      "raw_offset": "0x6fe3400",
+      "raw_size": 3584
+    },
+    {
+      "name": "_RDATA",
+      "rva": "0x7653000",
+      "virtual_size": 500,
+      "raw_offset": "0x6fe4200",
+      "raw_size": 512
+    },
+    {
+      "name": "malloc_h",
+      "rva": "0x7654000",
+      "virtual_size": 301,
+      "raw_offset": "0x6fe4400",
+      "raw_size": 512
+    },
+    {
+      "name": ".rsrc",
+      "rva": "0x7655000",
+      "virtual_size": 1164,
+      "raw_offset": "0x6fe4600",
+      "raw_size": 1536
+    },
+    {
+      "name": ".reloc",
+      "rva": "0x7656000",
+      "virtual_size": 526200,
+      "raw_offset": "0x6fe4c00",
+      "raw_size": 526336
+    }
+  ],
+  "pdata_entries": 537400,
+  "strings": [
+    {
+      "keyword": "[Msg] on grp recall",
+      "file_offset": "0x47ff298",
+      "va": "0x184800c98",
+      "text": "[Msg] on grp recall nfy ! frm:{} to:{}, pr:{} seq:{} rd:{} t:{} op_uid:{} op_t:{} is_off:{} trl_flag:{} is_andr_silence:{}",
+      "lea_xrefs": [
+        {
+          "va": "0x18274bec3",
+          "instruction": "lea rax, [rip + 0x20b4dce]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        }
+      ]
+    },
+    {
+      "keyword": "[Msg] on c2c recall",
+      "file_offset": "0x47ff372",
+      "va": "0x184800d72",
+      "text": "[Msg] on c2c recall nfy! frm:{} to:{}, p:{} seq:{} c_seq:{} rd:{} t:{} m_uid:{} is_off:{} trl_flag:{}  is_andr_silence:{}",
+      "lea_xrefs": [
+        {
+          "va": "0x182748838",
+          "instruction": "lea rax, [rip + 0x20b8533]",
+          "pdata_start": "0x18274810e",
+          "pdata_end": "0x1827488c7"
+        }
+      ]
+    },
+    {
+      "keyword": "msg_recall_worker.cc",
+      "file_offset": "0x4a232c7",
+      "va": "0x184a24cc7",
+      "text": "..\\modules\\im_core\\msg\\recall\\msg_recall_worker.cc",
+      "lea_xrefs": [
+        {
+          "va": "0x182747135",
+          "instruction": "lea rdi, [rip + 0x22ddb8b]",
+          "pdata_start": "0x18274707a",
+          "pdata_end": "0x182747342"
+        },
+        {
+          "va": "0x18274797c",
+          "instruction": "lea r14, [rip + 0x22dd344]",
+          "pdata_start": "0x1827478e2",
+          "pdata_end": "0x182747b81"
+        },
+        {
+          "va": "0x182747a31",
+          "instruction": "lea rdi, [rip + 0x22dd28f]",
+          "pdata_start": "0x1827478e2",
+          "pdata_end": "0x182747b81"
+        },
+        {
+          "va": "0x182747e53",
+          "instruction": "lea rdi, [rip + 0x22dce6d]",
+          "pdata_start": "0x182747cea",
+          "pdata_end": "0x182747f75"
+        },
+        {
+          "va": "0x182747eff",
+          "instruction": "lea r14, [rip + 0x22dcdc1]",
+          "pdata_start": "0x182747cea",
+          "pdata_end": "0x182747f75"
+        },
+        {
+          "va": "0x1827481f2",
+          "instruction": "lea rsi, [rip + 0x22dcace]",
+          "pdata_start": "0x18274810e",
+          "pdata_end": "0x1827488c7"
+        },
+        {
+          "va": "0x182748241",
+          "instruction": "lea rsi, [rip + 0x22dca7f]",
+          "pdata_start": "0x18274810e",
+          "pdata_end": "0x1827488c7"
+        },
+        {
+          "va": "0x18274828d",
+          "instruction": "lea rsi, [rip + 0x22dca33]",
+          "pdata_start": "0x18274810e",
+          "pdata_end": "0x1827488c7"
+        },
+        {
+          "va": "0x182748668",
+          "instruction": "lea rsi, [rip + 0x22dc658]",
+          "pdata_start": "0x18274810e",
+          "pdata_end": "0x1827488c7"
+        },
+        {
+          "va": "0x1827487c7",
+          "instruction": "lea rcx, [rip + 0x22dc4f9]",
+          "pdata_start": "0x18274810e",
+          "pdata_end": "0x1827488c7"
+        },
+        {
+          "va": "0x1827487dd",
+          "instruction": "lea rax, [rip + 0x22dc4e3]",
+          "pdata_start": "0x18274810e",
+          "pdata_end": "0x1827488c7"
+        },
+        {
+          "va": "0x182748e00",
+          "instruction": "lea rdi, [rip + 0x22dbec0]",
+          "pdata_start": "0x182748c8a",
+          "pdata_end": "0x182748ec2"
+        },
+        {
+          "va": "0x1827491f3",
+          "instruction": "lea rsi, [rip + 0x22dbacd]",
+          "pdata_start": "0x182749170",
+          "pdata_end": "0x182749269"
+        },
+        {
+          "va": "0x1827492ec",
+          "instruction": "lea rdi, [rip + 0x22db9d4]",
+          "pdata_start": "0x1827492ae",
+          "pdata_end": "0x1827493ef"
+        },
+        {
+          "va": "0x1827493a3",
+          "instruction": "lea r8, [rip + 0x22db91d]",
+          "pdata_start": "0x1827492ae",
+          "pdata_end": "0x1827493ef"
+        },
+        {
+          "va": "0x182749810",
+          "instruction": "lea rsi, [rip + 0x22db4b0]",
+          "pdata_start": "0x18274977c",
+          "pdata_end": "0x182749949"
+        },
+        {
+          "va": "0x1827498c8",
+          "instruction": "lea rsi, [rip + 0x22db3f8]",
+          "pdata_start": "0x18274977c",
+          "pdata_end": "0x182749949"
+        },
+        {
+          "va": "0x182749bd7",
+          "instruction": "lea r14, [rip + 0x22db0e9]",
+          "pdata_start": "0x182749b40",
+          "pdata_end": "0x182749c70"
+        },
+        {
+          "va": "0x182749e01",
+          "instruction": "lea rcx, [rip + 0x22daebf]",
+          "pdata_start": "0x182749d56",
+          "pdata_end": "0x18274a0bb"
+        },
+        {
+          "va": "0x182749e17",
+          "instruction": "lea rax, [rip + 0x22daea9]",
+          "pdata_start": "0x182749d56",
+          "pdata_end": "0x18274a0bb"
+        },
+        {
+          "va": "0x18274a378",
+          "instruction": "lea r8, [rip + 0x22da948]",
+          "pdata_start": "0x18274a2c0",
+          "pdata_end": "0x18274a3c8"
+        },
+        {
+          "va": "0x18274a4ef",
+          "instruction": "lea rbx, [rip + 0x22da7d1]",
+          "pdata_start": "0x18274a4b2",
+          "pdata_end": "0x18274a57f"
+        },
+        {
+          "va": "0x18274a6db",
+          "instruction": "lea rdi, [rip + 0x22da5e5]",
+          "pdata_start": "0x18274a618",
+          "pdata_end": "0x18274a8f6"
+        },
+        {
+          "va": "0x18274ac1f",
+          "instruction": "lea rdi, [rip + 0x22da0a1]",
+          "pdata_start": "0x18274aaf8",
+          "pdata_end": "0x18274ad01"
+        },
+        {
+          "va": "0x18274aea6",
+          "instruction": "lea r14, [rip + 0x22d9e1a]",
+          "pdata_start": "0x18274ae06",
+          "pdata_end": "0x18274b154"
+        },
+        {
+          "va": "0x18274af5e",
+          "instruction": "lea rdi, [rip + 0x22d9d62]",
+          "pdata_start": "0x18274ae06",
+          "pdata_end": "0x18274b154"
+        },
+        {
+          "va": "0x18274b3f3",
+          "instruction": "lea rcx, [rip + 0x22d98cd]",
+          "pdata_start": "0x18274b310",
+          "pdata_end": "0x18274b526"
+        },
+        {
+          "va": "0x18274b409",
+          "instruction": "lea rax, [rip + 0x22d98b7]",
+          "pdata_start": "0x18274b310",
+          "pdata_end": "0x18274b526"
+        },
+        {
+          "va": "0x18274b4a9",
+          "instruction": "lea rdi, [rip + 0x22d9817]",
+          "pdata_start": "0x18274b310",
+          "pdata_end": "0x18274b526"
+        },
+        {
+          "va": "0x18274b6de",
+          "instruction": "lea rsi, [rip + 0x22d95e2]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274b72d",
+          "instruction": "lea rsi, [rip + 0x22d9593]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274b77c",
+          "instruction": "lea rsi, [rip + 0x22d9544]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274b7cb",
+          "instruction": "lea rsi, [rip + 0x22d94f5]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274ba3f",
+          "instruction": "lea rsi, [rip + 0x22d9281]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274ba8e",
+          "instruction": "lea rsi, [rip + 0x22d9232]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274bae2",
+          "instruction": "lea rsi, [rip + 0x22d91de]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274bb31",
+          "instruction": "lea rsi, [rip + 0x22d918f]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274bb80",
+          "instruction": "lea rsi, [rip + 0x22d9140]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274bbcf",
+          "instruction": "lea rsi, [rip + 0x22d90f1]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274be55",
+          "instruction": "lea rcx, [rip + 0x22d8e6b]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274be6b",
+          "instruction": "lea rax, [rip + 0x22d8e55]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274c74b",
+          "instruction": "lea rdi, [rip + 0x22d8575]",
+          "pdata_start": "0x18274c730",
+          "pdata_end": "0x18274c807"
+        },
+        {
+          "va": "0x18274ca10",
+          "instruction": "lea rsi, [rip + 0x22d82b0]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        },
+        {
+          "va": "0x18274ca5f",
+          "instruction": "lea rsi, [rip + 0x22d8261]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        },
+        {
+          "va": "0x18274caa9",
+          "instruction": "lea rsi, [rip + 0x22d8217]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        },
+        {
+          "va": "0x18274caf3",
+          "instruction": "lea rsi, [rip + 0x22d81cd]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        },
+        {
+          "va": "0x18274cb3a",
+          "instruction": "lea rsi, [rip + 0x22d8186]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        },
+        {
+          "va": "0x18274cb93",
+          "instruction": "lea rsi, [rip + 0x22d812d]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        },
+        {
+          "va": "0x18274cbe2",
+          "instruction": "lea rsi, [rip + 0x22d80de]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        },
+        {
+          "va": "0x18274cd6b",
+          "instruction": "lea rsi, [rip + 0x22d7f55]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        },
+        {
+          "va": "0x18274cdba",
+          "instruction": "lea rsi, [rip + 0x22d7f06]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        },
+        {
+          "va": "0x18274ce06",
+          "instruction": "lea rsi, [rip + 0x22d7eba]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        },
+        {
+          "va": "0x18274d0e7",
+          "instruction": "lea r15, [rip + 0x22d7bd9]",
+          "pdata_start": "0x18274d078",
+          "pdata_end": "0x18274d31a"
+        },
+        {
+          "va": "0x18274d9b0",
+          "instruction": "lea r8, [rip + 0x22d7310]",
+          "pdata_start": "0x18274d86a",
+          "pdata_end": "0x18274da18"
+        },
+        {
+          "va": "0x18274dc53",
+          "instruction": "lea r15, [rip + 0x22d706d]",
+          "pdata_start": "0x18274dbc4",
+          "pdata_end": "0x18274de2c"
+        },
+        {
+          "va": "0x18274dd50",
+          "instruction": "lea rsi, [rip + 0x22d6f70]",
+          "pdata_start": "0x18274dbc4",
+          "pdata_end": "0x18274de2c"
+        },
+        {
+          "va": "0x18274dffe",
+          "instruction": "lea r15, [rip + 0x22d6cc2]",
+          "pdata_start": "0x18274dfca",
+          "pdata_end": "0x18274e0c1"
+        },
+        {
+          "va": "0x18274e10f",
+          "instruction": "lea rdi, [rip + 0x22d6bb1]",
+          "pdata_start": "0x18274e0f2",
+          "pdata_end": "0x18274e1fa"
+        },
+        {
+          "va": "0x18274eb86",
+          "instruction": "lea rsi, [rip + 0x22d613a]",
+          "pdata_start": "0x18274eb1f",
+          "pdata_end": "0x18274ebd6"
+        },
+        {
+          "va": "0x18274f225",
+          "instruction": "lea r15, [rip + 0x22d5a9b]",
+          "pdata_start": "0x18274f1c8",
+          "pdata_end": "0x18274f32c"
+        },
+        {
+          "va": "0x18274f2c5",
+          "instruction": "lea rsi, [rip + 0x22d59fb]",
+          "pdata_start": "0x18274f1c8",
+          "pdata_end": "0x18274f32c"
+        },
+        {
+          "va": "0x18274ff52",
+          "instruction": "lea rsi, [rip + 0x22d4d6e]",
+          "pdata_start": "0x18274fed8",
+          "pdata_end": "0x18274ffc5"
+        },
+        {
+          "va": "0x1827513a9",
+          "instruction": "lea r15, [rip + 0x22d3917]",
+          "pdata_start": "0x18275134c",
+          "pdata_end": "0x1827514b4"
+        },
+        {
+          "va": "0x18275144b",
+          "instruction": "lea rsi, [rip + 0x22d3875]",
+          "pdata_start": "0x18275134c",
+          "pdata_end": "0x1827514b4"
+        },
+        {
+          "va": "0x182751b65",
+          "instruction": "lea r15, [rip + 0x22d315b]",
+          "pdata_start": "0x1827519e0",
+          "pdata_end": "0x182751e6a"
+        },
+        {
+          "va": "0x182751c19",
+          "instruction": "lea rsi, [rip + 0x22d30a7]",
+          "pdata_start": "0x1827519e0",
+          "pdata_end": "0x182751e6a"
+        },
+        {
+          "va": "0x182751c6b",
+          "instruction": "lea r14, [rip + 0x22d3055]",
+          "pdata_start": "0x1827519e0",
+          "pdata_end": "0x182751e6a"
+        },
+        {
+          "va": "0x182751d0c",
+          "instruction": "lea rsi, [rip + 0x22d2fb4]",
+          "pdata_start": "0x1827519e0",
+          "pdata_end": "0x182751e6a"
+        },
+        {
+          "va": "0x18275218e",
+          "instruction": "lea rsi, [rip + 0x22d2b32]",
+          "pdata_start": "0x182752186",
+          "pdata_end": "0x1827521e8"
+        },
+        {
+          "va": "0x182752278",
+          "instruction": "lea rsi, [rip + 0x22d2a48]",
+          "pdata_start": "0x182752270",
+          "pdata_end": "0x1827522d2"
+        }
+      ]
+    },
+    {
+      "keyword": "HandleRecallSysMsg",
+      "file_offset": "0x4958c6f",
+      "va": "0x18495a66f",
+      "text": "HandleRecallSysMsg",
+      "lea_xrefs": [
+        {
+          "va": "0x18274821b",
+          "instruction": "lea rax, [rip + 0x221244d]",
+          "pdata_start": "0x18274810e",
+          "pdata_end": "0x1827488c7"
+        },
+        {
+          "va": "0x18274826a",
+          "instruction": "lea rax, [rip + 0x22123fe]",
+          "pdata_start": "0x18274810e",
+          "pdata_end": "0x1827488c7"
+        },
+        {
+          "va": "0x1827482b6",
+          "instruction": "lea rax, [rip + 0x22123b2]",
+          "pdata_start": "0x18274810e",
+          "pdata_end": "0x1827488c7"
+        },
+        {
+          "va": "0x182748691",
+          "instruction": "lea rax, [rip + 0x2211fd7]",
+          "pdata_start": "0x18274810e",
+          "pdata_end": "0x1827488c7"
+        },
+        {
+          "va": "0x182748748",
+          "instruction": "lea r9, [rip + 0x2211f20]",
+          "pdata_start": "0x18274810e",
+          "pdata_end": "0x1827488c7"
+        },
+        {
+          "va": "0x182748844",
+          "instruction": "lea rax, [rip + 0x2211e24]",
+          "pdata_start": "0x18274810e",
+          "pdata_end": "0x1827488c7"
+        },
+        {
+          "va": "0x18274b707",
+          "instruction": "lea rax, [rip + 0x220ef61]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274b756",
+          "instruction": "lea rax, [rip + 0x220ef12]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274b7a5",
+          "instruction": "lea rax, [rip + 0x220eec3]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274b7f4",
+          "instruction": "lea rax, [rip + 0x220ee74]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274ba68",
+          "instruction": "lea rax, [rip + 0x220ec00]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274babc",
+          "instruction": "lea rax, [rip + 0x220ebac]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274bb0b",
+          "instruction": "lea rax, [rip + 0x220eb5d]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274bb5a",
+          "instruction": "lea rax, [rip + 0x220eb0e]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274bba9",
+          "instruction": "lea rax, [rip + 0x220eabf]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274bbf8",
+          "instruction": "lea rax, [rip + 0x220ea70]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274becf",
+          "instruction": "lea rax, [rip + 0x220e799]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        },
+        {
+          "va": "0x18274ca39",
+          "instruction": "lea rax, [rip + 0x220dc2f]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        },
+        {
+          "va": "0x18274ca88",
+          "instruction": "lea rax, [rip + 0x220dbe0]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        },
+        {
+          "va": "0x18274cad2",
+          "instruction": "lea rax, [rip + 0x220db96]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        },
+        {
+          "va": "0x18274cb1c",
+          "instruction": "lea rax, [rip + 0x220db4c]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        },
+        {
+          "va": "0x18274cb63",
+          "instruction": "lea rax, [rip + 0x220db05]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        },
+        {
+          "va": "0x18274cbbc",
+          "instruction": "lea rax, [rip + 0x220daac]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        },
+        {
+          "va": "0x18274cc0b",
+          "instruction": "lea rax, [rip + 0x220da5d]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        },
+        {
+          "va": "0x18274cd94",
+          "instruction": "lea rax, [rip + 0x220d8d4]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        },
+        {
+          "va": "0x18274cde3",
+          "instruction": "lea rax, [rip + 0x220d885]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        },
+        {
+          "va": "0x18274ce2f",
+          "instruction": "lea rax, [rip + 0x220d839]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        }
+      ]
+    },
+    {
+      "keyword": "HandleRecallMsgNotify",
+      "file_offset": "0x4856078",
+      "va": "0x184857a78",
+      "text": "DoDelayHandleRecallMsgNotify",
+      "lea_xrefs": [
+        {
+          "va": "0x18153dd5f",
+          "instruction": "lea rdx, [rip + 0x3319d12]",
+          "pdata_start": "0x18153dc32",
+          "pdata_end": "0x18153ddd3"
+        }
+      ]
+    },
+    {
+      "keyword": "HandleRecallMsgNotify",
+      "file_offset": "0x4856095",
+      "va": "0x184857a95",
+      "text": "OnDelayHandleRecallMsgNotify",
+      "lea_xrefs": [
+        {
+          "va": "0x18153e009",
+          "instruction": "lea rax, [rip + 0x3319a85]",
+          "pdata_start": "0x18153df6c",
+          "pdata_end": "0x18153e267"
+        }
+      ]
+    },
+    {
+      "keyword": "HandleRecallMsgNotify",
+      "file_offset": "0x626cb20",
+      "va": "0x18626e720",
+      "text": ".?AV?$__func@V<lambda_14>@?0??OnDelayHandleRecallMsgNotify@MsgRecallMgr@im_core@nt@@IEAAXAEBUMsgRecallNotifyInfo@45@@Z@V?$allocator@V<lambda_14>@?0??OnDelayHandleRecallMsgNotify@MsgRecallMgr@im_core@nt@@IEAAXAEBUMsgRecallNotifyInfo@45@@Z@@__qq@std@@$$A6AXAEBV?$basic_string@DU?$char_traits@D@__qq@std@@V?$allocator@D@23@@89@W4ChatType@45@_KV?$list@V?$shared_ptr@VMsgRecord@im_core@nt@@@__qq@std@@V?$allocator@V?$shared_ptr@VMsgRecord@im_core@nt@@@__qq@std@@@23@@89@@Z@__function@__qq@std@@",
+      "lea_xrefs": []
+    },
+    {
+      "keyword": "HandleRecallMsgNotify",
+      "file_offset": "0x626cd20",
+      "va": "0x18626e920",
+      "text": ".?AV<lambda_14>@?0??OnDelayHandleRecallMsgNotify@MsgRecallMgr@im_core@nt@@IEAAXAEBUMsgRecallNotifyInfo@34@@Z@",
+      "lea_xrefs": []
+    },
+    {
+      "keyword": "HandleRecallMsgNotify",
+      "file_offset": "0x6585230",
+      "va": "0x186586e30",
+      "text": ".?AV?$__func@V<lambda_3>@?0??HandleRecallMsgNotifyFromQQ@C2CMsgRecallWorker@im_core@nt@@IEAAXAEBUMsgRecallNotifyInfo@45@@Z@V?$allocator@V<lambda_3>@?0??HandleRecallMsgNotifyFromQQ@C2CMsgRecallWorker@im_core@nt@@IEAAXAEBUMsgRecallNotifyInfo@45@@Z@@__qq@std@@$$A6AXHV?$vector@V?$shared_ptr@VMsgRecord@im_core@nt@@@__qq@std@@V?$allocator@V?$shared_ptr@VMsgRecord@im_core@nt@@@__qq@std@@@23@@89@@Z@__function@__qq@std@@",
+      "lea_xrefs": []
+    },
+    {
+      "keyword": "HandleRecallMsgNotify",
+      "file_offset": "0x65853e0",
+      "va": "0x186586fe0",
+      "text": ".?AV<lambda_3>@?0??HandleRecallMsgNotifyFromQQ@C2CMsgRecallWorker@im_core@nt@@IEAAXAEBUMsgRecallNotifyInfo@34@@Z@",
+      "lea_xrefs": []
+    },
+    {
+      "keyword": "FillRecallInfoToMsgNotifyInAndrSilence",
+      "file_offset": "0x4986fb4",
+      "va": "0x1849889b4",
+      "text": "FillRecallInfoToMsgNotifyInAndrSilence",
+      "lea_xrefs": [
+        {
+          "va": "0x182748e6e",
+          "instruction": "lea rax, [rip + 0x223fb3f]",
+          "pdata_start": "0x182748c8a",
+          "pdata_end": "0x182748ec2"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x47dc486",
+      "va": "0x1847dde86",
+      "text": "on recall group msgs failed! result:{}, err_msg:{}",
+      "lea_xrefs": [
+        {
+          "va": "0x1827513cf",
+          "instruction": "lea rax, [rip + 0x208cab0]",
+          "pdata_start": "0x18275134c",
+          "pdata_end": "0x1827514b4"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x47dc8d5",
+      "va": "0x1847de2d5",
+      "text": "on recall group msg failed! msg_seq:{} reply_code:{}, err_msg:{}",
+      "lea_xrefs": [
+        {
+          "va": "0x18274b437",
+          "instruction": "lea rax, [rip + 0x2092e97]",
+          "pdata_start": "0x18274b310",
+          "pdata_end": "0x18274b526"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x47dc9c6",
+      "va": "0x1847de3c6",
+      "text": "on recall group msgs failed! reply_code:{}, err_msg:{}",
+      "lea_xrefs": [
+        {
+          "va": "0x18274aecc",
+          "instruction": "lea rax, [rip + 0x20934f3]",
+          "pdata_start": "0x18274ae06",
+          "pdata_end": "0x18274b154"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x47f347e",
+      "va": "0x1847f4e7e",
+      "text": "on recall group sys msg! no Prompt_MsgRecallReminder op_type:{}",
+      "lea_xrefs": [
+        {
+          "va": "0x18274bab0",
+          "instruction": "lea rax, [rip + 0x20a93c7]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x483f352",
+      "va": "0x184840d52",
+      "text": "on recall group msgs failed! decode err. resp_buf size: {}",
+      "lea_xrefs": [
+        {
+          "va": "0x18274af80",
+          "instruction": "lea rax, [rip + 0x20f5dcb]",
+          "pdata_start": "0x18274ae06",
+          "pdata_end": "0x18274b154"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x4857f22",
+      "va": "0x184859922",
+      "text": "on recall group sys msg! hasn't msg_common::Msg::kBody",
+      "lea_xrefs": [
+        {
+          "va": "0x18274b74a",
+          "instruction": "lea rax, [rip + 0x210e1d1]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x4857f59",
+      "va": "0x184859959",
+      "text": "on recall group PaiYiPai sys msg! hasn't msg_common::Msg::kBody",
+      "lea_xrefs": [
+        {
+          "va": "0x18274cb57",
+          "instruction": "lea rax, [rip + 0x210cdfb]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x486f979",
+      "va": "0x184871379",
+      "text": "on recall group sys msg! hasn't im_msg_body::MsgBody::kBytesMsgContent",
+      "lea_xrefs": [
+        {
+          "va": "0x18274b7e8",
+          "instruction": "lea rax, [rip + 0x2125b8a]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x486f9c0",
+      "va": "0x1848713c0",
+      "text": "on recall group PaiYiPai sys msg! hasn't im_msg_body::MsgBody::kBytesMsgContent",
+      "lea_xrefs": [
+        {
+          "va": "0x18274cbff",
+          "instruction": "lea rax, [rip + 0x21247ba]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x48cb352",
+      "va": "0x1848ccd52",
+      "text": "on recall group sys msg! no msg_infos",
+      "lea_xrefs": [
+        {
+          "va": "0x18274bb9d",
+          "instruction": "lea rax, [rip + 0x21811ae]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x48e1ea1",
+      "va": "0x1848e38a1",
+      "text": "on recall group sys msg! im_msg_body::MsgBody::kBytesMsgContent is error",
+      "lea_xrefs": [
+        {
+          "va": "0x18274b6fb",
+          "instruction": "lea rax, [rip + 0x219819f]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x48e1eea",
+      "va": "0x1848e38ea",
+      "text": "on recall group PaiYiPai sys msg! im_msg_body::MsgBody::kBytesMsgContent is error",
+      "lea_xrefs": [
+        {
+          "va": "0x18274ca2d",
+          "instruction": "lea rax, [rip + 0x2196eb6]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x492217c",
+      "va": "0x184923b7c",
+      "text": "on recall group sys msg! no any msg info",
+      "lea_xrefs": [
+        {
+          "va": "0x18274bbec",
+          "instruction": "lea rax, [rip + 0x21d7f89]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x49221cc",
+      "va": "0x184923bcc",
+      "text": "on recall group msg failed! no msg info",
+      "lea_xrefs": [
+        {
+          "va": "0x18274b4ca",
+          "instruction": "lea rax, [rip + 0x21d86fb]",
+          "pdata_start": "0x18274b310",
+          "pdata_end": "0x18274b526"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x4940173",
+      "va": "0x184941b73",
+      "text": "on recall group PaiYiPai sys msg! sys_msg is null",
+      "lea_xrefs": [
+        {
+          "va": "0x18274cac6",
+          "instruction": "lea rax, [rip + 0x21f50a6]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x49435f8",
+      "va": "0x184944ff8",
+      "text": "on recall group sys msg! msg_common::Msg::kBody = null",
+      "lea_xrefs": [
+        {
+          "va": "0x18274b799",
+          "instruction": "lea rax, [rip + 0x21f9858]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x494362f",
+      "va": "0x18494502f",
+      "text": "on recall group PaiYiPai sys msg! msg_common::Msg::kBody = null",
+      "lea_xrefs": [
+        {
+          "va": "0x18274cbb0",
+          "instruction": "lea rax, [rip + 0x21f8478]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x49437d3",
+      "va": "0x1849451d3",
+      "text": "on recall group PaiYiPai sys msg! NotifyMsgBody::kRevertGrayTipsMsgTraceless = null",
+      "lea_xrefs": [
+        {
+          "va": "0x18274cdd7",
+          "instruction": "lea rax, [rip + 0x21f83f5]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x494395a",
+      "va": "0x18494535a",
+      "text": "on recall group sys msg! NotifyMsgBody::opt_msg_recall = null",
+      "lea_xrefs": [
+        {
+          "va": "0x18274bb4e",
+          "instruction": "lea rax, [rip + 0x21f9805]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x49452e4",
+      "va": "0x184946ce4",
+      "text": "on recall group sys msg! decode kBytesMsgContent fail",
+      "lea_xrefs": [
+        {
+          "va": "0x18274ba5c",
+          "instruction": "lea rax, [rip + 0x21fb281]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x494531a",
+      "va": "0x184946d1a",
+      "text": "on recall group PaiYiPai sys msg! decode kBytesMsgContent fail",
+      "lea_xrefs": [
+        {
+          "va": "0x18274cd88",
+          "instruction": "lea rax, [rip + 0x21f9f8b]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x4a769b5",
+      "va": "0x184a783b5",
+      "text": "on recall group sys msg! group code is 0",
+      "lea_xrefs": [
+        {
+          "va": "0x18274baff",
+          "instruction": "lea rax, [rip + 0x232c8af]",
+          "pdata_start": "0x18274b606",
+          "pdata_end": "0x18274bfe8"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall group",
+      "file_offset": "0x4a8822b",
+      "va": "0x184a89c2b",
+      "text": "on recall group PaiYiPai sys msg! group code is 0.",
+      "lea_xrefs": [
+        {
+          "va": "0x18274ce23",
+          "instruction": "lea rax, [rip + 0x233ce01]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall c2c",
+      "file_offset": "0x47dba16",
+      "va": "0x1847dd416",
+      "text": "on recall c2c file result:{}, err_msg:{}",
+      "lea_xrefs": [
+        {
+          "va": "0x18288b727",
+          "instruction": "lea rax, [rip + 0x1f51ce8]",
+          "pdata_start": "0x18288b6aa",
+          "pdata_end": "0x18288b7aa"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall c2c",
+      "file_offset": "0x47dc4b9",
+      "va": "0x1847ddeb9",
+      "text": "on recall c2c msgs failed! result:{}, err_msg:{}",
+      "lea_xrefs": [
+        {
+          "va": "0x18274f24b",
+          "instruction": "lea rax, [rip + 0x208ec67]",
+          "pdata_start": "0x18274f1c8",
+          "pdata_end": "0x18274f32c"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall c2c",
+      "file_offset": "0x47dc916",
+      "va": "0x1847de316",
+      "text": "on recall c2c msg failed! msg_seq:{} reply_code:{}, err_msg:{}",
+      "lea_xrefs": [
+        {
+          "va": "0x182747e94",
+          "instruction": "lea rax, [rip + 0x209647b]",
+          "pdata_start": "0x182747cea",
+          "pdata_end": "0x182747f75"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall c2c",
+      "file_offset": "0x47dc9fd",
+      "va": "0x1847de3fd",
+      "text": "on recall c2c msgs failed! reply_code:{}, err_msg:{}",
+      "lea_xrefs": [
+        {
+          "va": "0x1827479a2",
+          "instruction": "lea rax, [rip + 0x2096a54]",
+          "pdata_start": "0x1827478e2",
+          "pdata_end": "0x182747b81"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall c2c",
+      "file_offset": "0x483f38d",
+      "va": "0x184840d8d",
+      "text": "on recall c2c msgs failed! decode err. resp_buf size: {}",
+      "lea_xrefs": [
+        {
+          "va": "0x182747a53",
+          "instruction": "lea rax, [rip + 0x20f9333]",
+          "pdata_start": "0x1827478e2",
+          "pdata_end": "0x182747b81"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall c2c",
+      "file_offset": "0x484ef12",
+      "va": "0x184850912",
+      "text": "[Msg] on recall c2c sys msg! but peer_uid is empty",
+      "lea_xrefs": [
+        {
+          "va": "0x182748685",
+          "instruction": "lea rax, [rip + 0x2108286]",
+          "pdata_start": "0x18274810e",
+          "pdata_end": "0x1827488c7"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall c2c",
+      "file_offset": "0x486ef87",
+      "va": "0x184870987",
+      "text": "on recall c2c PaiYiPai sys msg! no content",
+      "lea_xrefs": [
+        {
+          "va": "0x18274ca7c",
+          "instruction": "lea rax, [rip + 0x2123f04]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall c2c",
+      "file_offset": "0x486efb2",
+      "va": "0x1848709b2",
+      "text": "on recall c2c sys msg! no content",
+      "lea_xrefs": [
+        {
+          "va": "0x18153b264",
+          "instruction": "lea rax, [rip + 0x3335747]",
+          "pdata_start": "0x18153b0d8",
+          "pdata_end": "0x18153b2d4"
+        },
+        {
+          "va": "0x18274820f",
+          "instruction": "lea rax, [rip + 0x212879c]",
+          "pdata_start": "0x18274810e",
+          "pdata_end": "0x1827488c7"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall c2c",
+      "file_offset": "0x48cb491",
+      "va": "0x1848cce91",
+      "text": "on recall c2c PaiYiPai sys msg! no msg infos",
+      "lea_xrefs": [
+        {
+          "va": "0x18274cb10",
+          "instruction": "lea rax, [rip + 0x218037a]",
+          "pdata_start": "0x18274c86e",
+          "pdata_end": "0x18274ce94"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall c2c",
+      "file_offset": "0x48cb4be",
+      "va": "0x1848ccebe",
+      "text": "on recall c2c sys msg! no msg infos",
+      "lea_xrefs": [
+        {
+          "va": "0x18274825e",
+          "instruction": "lea rax, [rip + 0x2184c59]",
+          "pdata_start": "0x18274810e",
+          "pdata_end": "0x1827488c7"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall c2c",
+      "file_offset": "0x49221a5",
+      "va": "0x184923ba5",
+      "text": "on recall c2c sys msg! no any msg info",
+      "lea_xrefs": [
+        {
+          "va": "0x1827482aa",
+          "instruction": "lea rax, [rip + 0x21db8f4]",
+          "pdata_start": "0x18274810e",
+          "pdata_end": "0x1827488c7"
+        }
+      ]
+    },
+    {
+      "keyword": "on recall c2c",
+      "file_offset": "0x49221f4",
+      "va": "0x184923bf4",
+      "text": "on recall c2c msg failed! no msg info",
+      "lea_xrefs": [
+        {
+          "va": "0x182747f20",
+          "instruction": "lea rax, [rip + 0x21dbccd]",
+          "pdata_start": "0x182747cea",
+          "pdata_end": "0x182747f75"
+        }
+      ]
+    },
+    {
+      "keyword": "fill recall info:",
+      "file_offset": "0x47bdcf9",
+      "va": "0x1847bf6f9",
+      "text": "fill recall info: recall:{} peer_uid:{} peer_uin:{} chat_type:{} sender_uid:{} seq:{} random:{} time:{} c_seq:{} traceless:{}",
+      "lea_xrefs": [
+        {
+          "va": "0x182748e62",
+          "instruction": "lea rax, [rip + 0x2076890]",
+          "pdata_start": "0x182748c8a",
+          "pdata_end": "0x182748ec2"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "va": "0x18153b0d8",
+      "end": "0x18153b2d4",
+      "file_offset": "0x153a4d8",
+      "size": 508,
+      "decoded_bytes": 508,
+      "instruction_count": 145,
+      "asm_file": null,
+      "runtime": {
+        "address": "0x211b29cb0d8",
+        "bytes_read": 508,
+        "equals_disk": true,
+        "sha256": "fc91a2283d4387cfa309d4b359a5edcb429b67fdcb558f24affa974ece97d0f0",
+        "disk_sha256": "fc91a2283d4387cfa309d4b359a5edcb429b67fdcb558f24affa974ece97d0f0",
+        "differing_offsets": []
+      },
+      "assembly_retained": false
+    },
+    {
+      "va": "0x18153dc32",
+      "end": "0x18153ddd3",
+      "file_offset": "0x153d032",
+      "size": 417,
+      "decoded_bytes": 417,
+      "instruction_count": 86,
+      "asm_file": null,
+      "runtime": {
+        "address": "0x211b29cdc32",
+        "bytes_read": 417,
+        "equals_disk": true,
+        "sha256": "918696e3a7278ab4345eb4fd21bcec36c742dc63a592a6f3c22a1022664e9192",
+        "disk_sha256": "918696e3a7278ab4345eb4fd21bcec36c742dc63a592a6f3c22a1022664e9192",
+        "differing_offsets": []
+      },
+      "assembly_retained": false
+    },
+    {
+      "va": "0x18153df6c",
+      "end": "0x18153e267",
+      "file_offset": "0x153d36c",
+      "size": 763,
+      "decoded_bytes": 763,
+      "instruction_count": 180,
+      "asm_file": "delay-recall-manager.asm",
+      "runtime": {
+        "address": "0x211b29cdf6c",
+        "bytes_read": 763,
+        "equals_disk": true,
+        "sha256": "e471b67b293b788282e4302e71ddfddda7a679212936968a8bfd76254b1d6091",
+        "disk_sha256": "e471b67b293b788282e4302e71ddfddda7a679212936968a8bfd76254b1d6091",
+        "differing_offsets": []
+      },
+      "assembly_retained": true
+    },
+    {
+      "va": "0x1827478e2",
+      "end": "0x182747b81",
+      "file_offset": "0x2746ce2",
+      "size": 671,
+      "decoded_bytes": 671,
+      "instruction_count": 158,
+      "asm_file": null,
+      "runtime": {
+        "address": "0x211b3bd78e2",
+        "bytes_read": 671,
+        "equals_disk": true,
+        "sha256": "97fda285e6c060d1e88906ddd7c8f38396a45a6f1e71f6a1d79d37138e9f6761",
+        "disk_sha256": "97fda285e6c060d1e88906ddd7c8f38396a45a6f1e71f6a1d79d37138e9f6761",
+        "differing_offsets": []
+      },
+      "assembly_retained": false
+    },
+    {
+      "va": "0x182747cea",
+      "end": "0x182747f75",
+      "file_offset": "0x27470ea",
+      "size": 651,
+      "decoded_bytes": 651,
+      "instruction_count": 184,
+      "asm_file": null,
+      "runtime": {
+        "address": "0x211b3bd7cea",
+        "bytes_read": 651,
+        "equals_disk": true,
+        "sha256": "2b7713b1cdcd348dc5e709a51f8dfb73cafa5f071b171058ca83d249ba2b028e",
+        "disk_sha256": "2b7713b1cdcd348dc5e709a51f8dfb73cafa5f071b171058ca83d249ba2b028e",
+        "differing_offsets": []
+      },
+      "assembly_retained": false
+    },
+    {
+      "va": "0x18274810e",
+      "end": "0x1827488c7",
+      "file_offset": "0x274750e",
+      "size": 1977,
+      "decoded_bytes": 1977,
+      "instruction_count": 432,
+      "asm_file": "c2c-recall.asm",
+      "runtime": {
+        "address": "0x211b3bd810e",
+        "bytes_read": 1977,
+        "equals_disk": true,
+        "sha256": "ff9358548cccef7aea00eea3e580cb71e4b36bb76932438e623bf1f97ae96d48",
+        "disk_sha256": "ff9358548cccef7aea00eea3e580cb71e4b36bb76932438e623bf1f97ae96d48",
+        "differing_offsets": []
+      },
+      "assembly_retained": true
+    },
+    {
+      "va": "0x182748c8a",
+      "end": "0x182748ec2",
+      "file_offset": "0x274808a",
+      "size": 568,
+      "decoded_bytes": 568,
+      "instruction_count": 135,
+      "asm_file": "fill-recall-info.asm",
+      "runtime": {
+        "address": "0x211b3bd8c8a",
+        "bytes_read": 568,
+        "equals_disk": true,
+        "sha256": "3b311dfd4a9dd10ef949e1f5e661cb04834ea74aec31210c29c2ef3e75638459",
+        "disk_sha256": "3b311dfd4a9dd10ef949e1f5e661cb04834ea74aec31210c29c2ef3e75638459",
+        "differing_offsets": []
+      },
+      "assembly_retained": true
+    },
+    {
+      "va": "0x18274ae06",
+      "end": "0x18274b154",
+      "file_offset": "0x274a206",
+      "size": 846,
+      "decoded_bytes": 846,
+      "instruction_count": 194,
+      "asm_file": null,
+      "runtime": {
+        "address": "0x211b3bdae06",
+        "bytes_read": 846,
+        "equals_disk": true,
+        "sha256": "b51a1734b3b5b0c5c607dfd593a60dacf3591f0c540dd599c20e379f2cc118ac",
+        "disk_sha256": "b51a1734b3b5b0c5c607dfd593a60dacf3591f0c540dd599c20e379f2cc118ac",
+        "differing_offsets": []
+      },
+      "assembly_retained": false
+    },
+    {
+      "va": "0x18274b310",
+      "end": "0x18274b526",
+      "file_offset": "0x274a710",
+      "size": 534,
+      "decoded_bytes": 534,
+      "instruction_count": 143,
+      "asm_file": null,
+      "runtime": {
+        "address": "0x211b3bdb310",
+        "bytes_read": 534,
+        "equals_disk": true,
+        "sha256": "f01a764ee6f0733b545df5d659f42cecab64ec5610b68bf3d9c92d418b5d8ed5",
+        "disk_sha256": "f01a764ee6f0733b545df5d659f42cecab64ec5610b68bf3d9c92d418b5d8ed5",
+        "differing_offsets": []
+      },
+      "assembly_retained": false
+    },
+    {
+      "va": "0x18274b606",
+      "end": "0x18274bfe8",
+      "file_offset": "0x274aa06",
+      "size": 2530,
+      "decoded_bytes": 2530,
+      "instruction_count": 566,
+      "asm_file": "group-recall.asm",
+      "runtime": {
+        "address": "0x211b3bdb606",
+        "bytes_read": 2530,
+        "equals_disk": true,
+        "sha256": "9131e5e189a20a59a33fb8bd97ac81fe1a5d08bd6332a551afd3fe69ca1030ac",
+        "disk_sha256": "9131e5e189a20a59a33fb8bd97ac81fe1a5d08bd6332a551afd3fe69ca1030ac",
+        "differing_offsets": []
+      },
+      "assembly_retained": true
+    },
+    {
+      "va": "0x18274c86e",
+      "end": "0x18274ce94",
+      "file_offset": "0x274bc6e",
+      "size": 1574,
+      "decoded_bytes": 1574,
+      "instruction_count": 398,
+      "asm_file": "paiyipai-recall.asm",
+      "runtime": {
+        "address": "0x211b3bdc86e",
+        "bytes_read": 1574,
+        "equals_disk": true,
+        "sha256": "2365968d379a0bbe92f87fc3a82de9a8594f143797e9c02888d7a90bd55eb85d",
+        "disk_sha256": "2365968d379a0bbe92f87fc3a82de9a8594f143797e9c02888d7a90bd55eb85d",
+        "differing_offsets": []
+      },
+      "assembly_retained": true
+    },
+    {
+      "va": "0x18274f1c8",
+      "end": "0x18274f32c",
+      "file_offset": "0x274e5c8",
+      "size": 356,
+      "decoded_bytes": 356,
+      "instruction_count": 97,
+      "asm_file": null,
+      "runtime": {
+        "address": "0x211b3bdf1c8",
+        "bytes_read": 356,
+        "equals_disk": true,
+        "sha256": "d65df8057df2c4cf84247ebcf083b2dd2528816b398befc3bdfb82ba193a41dd",
+        "disk_sha256": "d65df8057df2c4cf84247ebcf083b2dd2528816b398befc3bdfb82ba193a41dd",
+        "differing_offsets": []
+      },
+      "assembly_retained": false
+    },
+    {
+      "va": "0x18275134c",
+      "end": "0x1827514b4",
+      "file_offset": "0x275074c",
+      "size": 360,
+      "decoded_bytes": 360,
+      "instruction_count": 95,
+      "asm_file": null,
+      "runtime": {
+        "address": "0x211b3be134c",
+        "bytes_read": 360,
+        "equals_disk": true,
+        "sha256": "292fea20d6d4b9100229ef54b9752a6924eb9a5837f1d0b7794b12d2793888a5",
+        "disk_sha256": "292fea20d6d4b9100229ef54b9752a6924eb9a5837f1d0b7794b12d2793888a5",
+        "differing_offsets": []
+      },
+      "assembly_retained": false
+    },
+    {
+      "va": "0x18288b6aa",
+      "end": "0x18288b7aa",
+      "file_offset": "0x288aaaa",
+      "size": 256,
+      "decoded_bytes": 256,
+      "instruction_count": 71,
+      "asm_file": null,
+      "runtime": {
+        "address": "0x211b3d1b6aa",
+        "bytes_read": 256,
+        "equals_disk": true,
+        "sha256": "2745d6849fd97fae7d042824fba0232c8ff330255775b67d4624dee803a6d444",
+        "disk_sha256": "2745d6849fd97fae7d042824fba0232c8ff330255775b67d4624dee803a6d444",
+        "differing_offsets": []
+      },
+      "assembly_retained": false
+    }
+  ],
+  "runtime_pid": 30608,
+  "runtime_module_base": "0x211b1490000",
+  "limitations": [
+    "Read-only static evidence plus optional scoped ReadProcessMemory.",
+    "RIP LEA candidate scan only; no exhaustive xrefs or decompilation.",
+    "No controlled recall event or functional patch test was performed."
+  ],
+  "qq_version": "9.9.36-53644",
+  "wrapper_file_version": "9.8.0.24541",
+  "assembly_retention": "仅保留与结论相关的五类函数；其他函数保留范围、字节统计与观测摘要。"
+}

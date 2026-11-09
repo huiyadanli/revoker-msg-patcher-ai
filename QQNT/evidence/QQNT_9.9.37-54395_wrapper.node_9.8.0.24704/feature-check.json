@@ -1,0 +1,67 @@
+{
+  "target": "E:\\Program Files\\Tencent\\QQNT\\versions\\9.9.37-54395\\resources\\app\\wrapper.node",
+  "original_sha256": "fed532ad58d2404dcedf2858554e8fa52a5f4e65b271c008d2faca4011d7d4a2",
+  "candidate_sha256": "f5e20cb7129142dac22b962ce253cfd0a955f52a3c20ad807440a5b0fa3adab3",
+  "candidate_diff_byte_count": 8,
+  "target_written": false,
+  "patterns": [
+    {
+      "index": 0,
+      "search": "48 8B 95 3F 3F 3F 3F 4C 8B 85 3F 3F 3F 3F 4C 89 C0 48 29 D0 48 83 F8 07 0F 87 3F 3F 3F 3F 48 8D 35 3F 3F 3F 3F 6A 5C 5A 48 89 F1",
+      "replace": "48 8B 95 3F 3F 3F 3F 4C 8B 85 3F 3F 3F 3F 4C 89 C0 48 29 D0 48 83 F8 07 90 90 90 90 90 90 48 8D 35 3F 3F 3F 3F 6A 5C 5A 48 89 F1",
+      "length": 43,
+      "matches": [
+        "0x2774968"
+      ],
+      "branch_file_offset": "0x2774980",
+      "branch_va": "0x182775580",
+      "original_instruction": "0f 87 3c 01 00 00",
+      "candidate_instruction": "90 90 90 90 90 90",
+      "original_disassembly": [
+        "0x182775580: ja 0x1827756c2"
+      ],
+      "candidate_disassembly": [
+        "0x182775580: nop ",
+        "0x182775581: nop ",
+        "0x182775582: nop ",
+        "0x182775583: nop ",
+        "0x182775584: nop ",
+        "0x182775585: nop "
+      ],
+      "different_offsets": [
+        "0x2774980",
+        "0x2774981",
+        "0x2774982",
+        "0x2774983",
+        "0x2774984",
+        "0x2774985"
+      ]
+    },
+    {
+      "index": 1,
+      "search": "48 8B 85 3F 3F 3F 3F 48 3B 85 3F 3F 3F 3F 0F 84 3F 3F 3F 3F 48 8B 85 3F 3F 3F 3F 48 8B 08 48 8B 41 08 48 83 C1 08 6A 06 5A FF 90 28 01 00 00 84 C0 0F 84 3F 3F 3F 3F",
+      "replace": "48 8B 85 3F 3F 3F 3F 48 3B 85 3F 3F 3F 3F 90 E9 3F 3F 3F 3F 48 8B 85 3F 3F 3F 3F 48 8B 08 48 8B 41 08 48 83 C1 08 6A 06 5A FF 90 28 01 00 00 84 C0 0F 84 3F 3F 3F 3F",
+      "length": 55,
+      "matches": [
+        "0x2771440"
+      ],
+      "branch_file_offset": "0x277144e",
+      "branch_va": "0x18277204e",
+      "original_instruction": "0f 84 e1 00 00 00",
+      "candidate_instruction": "90 e9 e1 00 00 00",
+      "original_disassembly": [
+        "0x18277204e: je 0x182772135"
+      ],
+      "candidate_disassembly": [
+        "0x18277204e: nop ",
+        "0x18277204f: jmp 0x182772135"
+      ],
+      "different_offsets": [
+        "0x277144e",
+        "0x277144f"
+      ]
+    }
+  ],
+  "qq_version": "9.9.37-54395",
+  "wrapper_file_version": "9.8.0.24704"
+}

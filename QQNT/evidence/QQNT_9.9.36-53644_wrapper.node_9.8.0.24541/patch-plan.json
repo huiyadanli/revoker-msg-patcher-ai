@@ -1,0 +1,45 @@
+{
+  "target": "E:\\Program Files\\Tencent\\QQNT\\versions\\9.9.36-53644\\resources\\app\\wrapper.node",
+  "required_original_sha256": "0d8b94448f4dafe7337b88d6a568b004224c37fcbe2bd1142c1af7624fbd534c",
+  "required_original_size": 117866024,
+  "strategy": "candidate: always take pre-existing error/cleanup path",
+  "status": "static candidate; no patch installed; no controlled recall test",
+  "candidate_in_memory_sha256": "115226f7b8e0307fd999809bb73cdbe62fe5f9a21f9d4ec76ecb5ee326fd5289",
+  "differing_bytes": 8,
+  "changes": [
+    {
+      "name": "group",
+      "instruction_va": "0x18274b6d8",
+      "file_offset": "0x274aad8",
+      "original": "0f873c010000",
+      "candidate_always_skip": "909090909090",
+      "decoded": [
+        "0x18274b6d8: nop",
+        "0x18274b6d9: nop",
+        "0x18274b6da: nop",
+        "0x18274b6db: nop",
+        "0x18274b6dc: nop",
+        "0x18274b6dd: nop"
+      ],
+      "next_address": "0x18274b6de",
+      "target_written": false,
+      "runtime_recall_test": false
+    },
+    {
+      "name": "c2c",
+      "instruction_va": "0x1827481a6",
+      "file_offset": "0x27475a6",
+      "original": "0f84e1000000",
+      "candidate_always_skip": "90e9e1000000",
+      "decoded": [
+        "0x1827481a6: nop",
+        "0x1827481a7: jmp 0x18274828d"
+      ],
+      "next_address": "0x18274828d",
+      "target_written": false,
+      "runtime_recall_test": false
+    }
+  ],
+  "qq_version": "9.9.36-53644",
+  "wrapper_file_version": "9.8.0.24541"
+}

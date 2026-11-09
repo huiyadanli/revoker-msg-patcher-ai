@@ -1,0 +1,83 @@
+[
+  {
+    "method_name": "addLocalGrayTipMsg",
+    "string_va": "0x18495ace1",
+    "xref_va": "0x180fe982a",
+    "pdata_start": "0x180fe979a",
+    "pdata_end": "0x180fe9a19",
+    "assembly_window": [
+      "0x180fe9817: lea r9, [rbp + 0x70]",
+      "0x180fe981b: mov rcx, rdi",
+      "0x180fe981e: mov rdx, rbx",
+      "0x180fe9821: mov r8, r14",
+      "0x180fe9824: call qword ptr [rip + 0x3aeaa66]",
+      "0x180fe982a: lea rbx, [rip + 0x39714b0]",
+      "0x180fe9831: mov qword ptr [rsp + 0x20], rbx",
+      "0x180fe9836: mov rcx, rdi",
+      "0x180fe9839: mov edx, eax",
+      "0x180fe983b: mov r8, rsi",
+      "0x180fe983e: mov r9d, 0x88a",
+      "0x180fe9844: call 0x180c3ec08",
+      "0x180fe9849: test al, al",
+      "0x180fe984b: je 0x180fe99aa",
+      "0x180fe9851: cmp qword ptr [rbp + 0x88], 3",
+      "0x180fe9859: jne 0x180fe99ae",
+      "0x180fe985f: lea rcx, [rbp + 0x30]",
+      "0x180fe9863: lea r8, [rbp + 0x70]"
+    ]
+  },
+  {
+    "method_name": "addLocalJsonGrayTipMsg",
+    "string_va": "0x18495acca",
+    "xref_va": "0x180fe9b94",
+    "pdata_start": "0x180fe9afe",
+    "pdata_end": "0x180fe9dba",
+    "assembly_window": [
+      "0x180fe9b7e: lea r9, [rbp + 0x140]",
+      "0x180fe9b85: mov rcx, rdi",
+      "0x180fe9b88: mov rdx, rbx",
+      "0x180fe9b8b: mov r8, r14",
+      "0x180fe9b8e: call qword ptr [rip + 0x3aea6fc]",
+      "0x180fe9b94: lea rbx, [rip + 0x397112f]",
+      "0x180fe9b9b: mov qword ptr [rsp + 0x20], rbx",
+      "0x180fe9ba0: mov rcx, rdi",
+      "0x180fe9ba3: mov edx, eax",
+      "0x180fe9ba5: mov r8, rsi",
+      "0x180fe9ba8: mov r9d, 0x8aa",
+      "0x180fe9bae: call 0x180c3ec08",
+      "0x180fe9bb3: test al, al",
+      "0x180fe9bb5: je 0x180fe9d48",
+      "0x180fe9bbb: cmp qword ptr [rbp + 0x168], 4",
+      "0x180fe9bc3: jne 0x180fe9d4c",
+      "0x180fe9bc9: lea rcx, [rbp + 0x100]",
+      "0x180fe9bd0: lea r8, [rbp + 0x140]"
+    ]
+  },
+  {
+    "method_name": "addLocalJsonGrayTipMsgExt",
+    "string_va": "0x18486026d",
+    "xref_va": "0x180fe9f74",
+    "pdata_start": "0x180fe9ede",
+    "pdata_end": "0x180fea1ba",
+    "assembly_window": [
+      "0x180fe9f5e: lea r9, [rbp + 0x170]",
+      "0x180fe9f65: mov rcx, rdi",
+      "0x180fe9f68: mov rdx, rbx",
+      "0x180fe9f6b: mov r8, r14",
+      "0x180fe9f6e: call qword ptr [rip + 0x3aea31c]",
+      "0x180fe9f74: lea rbx, [rip + 0x38762f2]",
+      "0x180fe9f7b: mov qword ptr [rsp + 0x20], rbx",
+      "0x180fe9f80: mov rcx, rdi",
+      "0x180fe9f83: mov edx, eax",
+      "0x180fe9f85: mov r8, rsi",
+      "0x180fe9f88: mov r9d, 0x8cd",
+      "0x180fe9f8e: call 0x180c3ec08",
+      "0x180fe9f93: test al, al",
+      "0x180fe9f95: je 0x180fea148",
+      "0x180fe9f9b: cmp qword ptr [rbp + 0x198], 5",
+      "0x180fe9fa3: jne 0x180fea14c",
+      "0x180fe9fa9: lea rcx, [rbp + 0x130]",
+      "0x180fe9fb0: lea r8, [rbp + 0x170]"
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+Feature 0: unique match 0x2774968, length 43
+Feature 1: unique match 0x2771440, length 55
+读取文件耗时：44.2614ms.
+匹配防撤回耗时：53.1673ms.
+匹配防撤回耗时：38.9098ms.
+PE version: 9.8.0.24704
+Selected range: (9.8.0.24540, ]
+Candidate SHA256: f5e20cb7129142dac22b962ce253cfd0a955f52a3c20ad807440a5b0fa3adab3
+PASS: actual JsonData selection, unique features, two blocks, eight changed bytes, patched-feature recognition; target file not written

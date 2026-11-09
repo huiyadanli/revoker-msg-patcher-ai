@@ -1,0 +1,60 @@
+{
+  "manifest": "E:\\Program Files\\Tencent\\QQNT\\versions\\9.9.36-53644\\resources\\app\\wrapper.node.recall-install-20261109-004245-625118.json",
+  "prepared_at": "2026-11-09T00:42:45.625118+08:00",
+  "target": "E:\\Program Files\\Tencent\\QQNT\\versions\\9.9.36-53644\\resources\\app\\wrapper.node",
+  "backup": "E:\\Program Files\\Tencent\\QQNT\\versions\\9.9.36-53644\\resources\\app\\wrapper.node.recall-backup-20261109-004245-625118.bak",
+  "staged": "E:\\Program Files\\Tencent\\QQNT\\versions\\9.9.36-53644\\resources\\app\\wrapper.node.recall-patched-20261109-004245-625118.tmp",
+  "original_sha256": "0d8b94448f4dafe7337b88d6a568b004224c37fcbe2bd1142c1af7624fbd534c",
+  "patched_sha256": "115226f7b8e0307fd999809bb73cdbe62fe5f9a21f9d4ec76ecb5ee326fd5289",
+  "size": 117866024,
+  "different_byte_offsets": [
+    "0x27475a6",
+    "0x27475a7",
+    "0x274aad8",
+    "0x274aad9",
+    "0x274aada",
+    "0x274aadb",
+    "0x274aadc",
+    "0x274aadd"
+  ],
+  "instruction_verification": [
+    {
+      "name": "group",
+      "file_offset": "0x274aad8",
+      "instructions": [
+        "0x18274b6d8: nop",
+        "0x18274b6d9: nop",
+        "0x18274b6da: nop",
+        "0x18274b6db: nop",
+        "0x18274b6dc: nop",
+        "0x18274b6dd: nop"
+      ]
+    },
+    {
+      "name": "c2c",
+      "file_offset": "0x27475a6",
+      "instructions": [
+        "0x1827481a6: nop",
+        "0x1827481a7: jmp 0x18274828d"
+      ]
+    }
+  ],
+  "status": "applied",
+  "controlled_recall_test": false,
+  "process_memory_modified": false,
+  "qq_terminated": false,
+  "restart_required": false,
+  "applied_at": "2026-11-09T00:43:43.832184+08:00",
+  "backup_verified": true,
+  "installed_verified": true,
+  "different_byte_count": 8,
+  "startup_verified": true,
+  "loaded_module_verified": true,
+  "verified_process_id": 52412,
+  "verified_module_base": "0x7ff8e46a0000",
+  "runtime_evidence": "E:\\HuiPrograming\\MainProject\\revoker-msg-patcher-ai\\QQNT\\evidence\\QQNT_9.9.36-53644_wrapper.node_9.8.0.24541\\analysis-patched.json",
+  "verification_time": "2026-11-09T00:44:43.664886+08:00",
+  "functional_validation_owner": "user",
+  "qq_version": "9.9.36-53644",
+  "wrapper_file_version": "9.8.0.24541"
+}
